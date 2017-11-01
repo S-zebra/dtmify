@@ -15,7 +15,11 @@
     </form>
     <div id="indicatorbox">
       <p>現在，発音中の文字: </p>
-      <div class="indicator" id="curcharbox">-</div>
+      <div class="indicator" id="curcharbox">
+        <span id="beforechar" class="small-chars"></span>
+        <span id="curchar">-</span>
+        <span id="afterchar" class="small-chars"></span>
+      </div>
       <div class="indicator" id="curcharnumbox">(--)</div>
       <div class="indicator" id="curfreqbox">-: [---, ---] Hz</div>
     </div>

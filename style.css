@@ -13,7 +13,7 @@ h1 {
   border-bottom: 2px gray solid;
 }
 #inputbox{
-  font-size: 18pt;
+  font-size: 14pt;
 }
 #dtmifybtn{
   font-size: 14pt;
@@ -26,7 +26,7 @@ h1 {
 .indicator{
   text-align: center;
 }
-#curcharbox{
+#curchar{
   font-size: 48pt;
 }
 #curcharnumbox{
@@ -34,4 +34,8 @@ h1 {
 }
 #curfreqbox{
   font-size: 20pt;
+}
+.small-chars{
+  color: darkgray;
+  font-size: 24pt;
 }
