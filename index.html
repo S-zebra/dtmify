@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>DTMiFy</title>
+    <script type="text/javascript" src="./dtmify.js"></script>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <h1>DTMiFy</h1>
+    <p>あらゆる文字をDTMFに変換するおもちゃです。<br/>下の欄に文字を入れてください。</p>
+    <form id="inputform">
+      <textarea id="inputbox" rows="3" cols="30"></textarea>
+      <input type="button" id="dtmifybtn" value="DTMiFy!"/>
+    </form>
+    <div id="indicatorbox">
+      <p>現在，発音中の文字: </p>
+      <div class="indicator" id="curcharbox">-</div>
+      <div class="indicator" id="curcharnumbox">(--)</div>
+      <div class="indicator" id="curfreqbox">-: [---, ---] Hz</div>
+    </div>
+    <div id="debug">&nbsp;</div>
+  </body>
+</html>

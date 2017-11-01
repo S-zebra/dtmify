@@ -1,0 +1,37 @@
+* {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+h1 {
+  font-size: 22pt;
+  background-color: green;
+  color:white;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+#inputform{
+  padding-bottom: 3px;
+  border-bottom: 2px gray solid;
+}
+#inputbox{
+  font-size: 18pt;
+}
+#dtmifybtn{
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+#indicatorbox{
+  max-width: 250px;
+}
+.indicator{
+  text-align: center;
+}
+#curcharbox{
+  font-size: 48pt;
+}
+#curcharnumbox{
+  font-size: 18pt;
+}
+#curfreqbox{
+  font-size: 20pt;
+}
