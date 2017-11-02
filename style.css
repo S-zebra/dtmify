@@ -1,33 +1,47 @@
 * {
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 120%;
+  text-align: center;
+}
+body{
+  padding: 0;
+  margin: 0;
 }
 h1 {
-  font-size: 22pt;
+  font-size: 28pt;
   background-color: green;
   color:white;
-  margin-top: 10px;
+  margin-top: 0;
   padding-left: 5px;
+}
+#description{
+  margin-top: 5px;
 }
 #inputform{
   padding-bottom: 3px;
   border-bottom: 2px gray solid;
 }
 #inputbox{
-  font-size: 14pt;
+  font-size: 16pt;
 }
 #dtmifybtn{
-  font-size: 14pt;
+  font-size: 18pt;
   cursor: pointer;
 }
 
 #indicatorbox{
-  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+}
+#hatsuon-label{
+  margin-bottom: 0;
 }
 .indicator{
   text-align: center;
 }
 #curchar{
-  font-size: 48pt;
+  font-size: 56pt;
 }
 #curcharnumbox{
   font-size: 18pt;

@@ -8,13 +8,13 @@
   </head>
   <body>
     <h1>DTMiFy</h1>
-    <p>あらゆる文字をDTMFに変換するおもちゃです。<br/>下の欄に文字を入れてください。</p>
+    <p id="description">あらゆる文字をDTMFに変換するおもちゃです。<br/>下の欄に文字を入れてください。</p>
     <form id="inputform">
       <textarea id="inputbox" rows="3" cols="30"></textarea>
       <input type="button" id="dtmifybtn" value="DTMiFy!"/>
     </form>
     <div id="indicatorbox">
-      <p>現在，発音中の文字: </p>
+      <p id="hatsuon-label">現在，発音中の文字: </p>
       <div class="indicator" id="curcharbox">
         <span id="beforechar" class="small-chars"></span>
         <span id="curchar">-</span>
